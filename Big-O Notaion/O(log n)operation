@@ -1,0 +1,17 @@
+def binary_Search(arr, target):
+    left = 0 # start index 
+    right = len(arr)  -1 # end index
+    
+    while left <= right:# check to make sure start index is is not beyond end index
+        mid = (left + right) //2 # add the arr indices and divide by 2 to get the mid index
+        if arr[mid] == target: #  check if mid index is target 
+            return mid # return mid index if it is the target
+        elif arr[mid] < target: # else if mid index is smaller than target 
+            left = mid + 1 # left becomes the new mid index plus 
+        else:
+            right = mid - 1 # otherwise right becomes the new mid index minus 1
+    return -1 # return minus one if the target is not found in the array
+arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+target = 7
+res = binary_Search(arr, target)
+print(f"target is in position: {res}")
