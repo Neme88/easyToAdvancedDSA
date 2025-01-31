@@ -19,8 +19,14 @@ def count_occurances(arr, target_value):
 arr = [2, 4, 2, 1, 2, 6, 4, 8, 3]
 target_value = 2
 print(count_occurances(arr, target_value))
-    
 
-
-
+# search a for a given number in an unsorted list of numbers
+def search_for_number( arr, target_number):
+    for i in arr:
+        if i == target_number:
+            return f"The targeted number which is {i} is in position {arr[i]}."
+    return -1
+arr = [2, 4, 2, 1, 2]
+target_number = 4
+print(search_for_number(arr, target_number))
     
