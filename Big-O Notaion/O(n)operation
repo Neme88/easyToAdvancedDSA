@@ -1,0 +1,12 @@
+ # O(n) algorithm implementations
+ # summing numbers in a list
+def sum_values(arr):
+    total = 0
+    for i in arr:
+        total+= i
+    return total
+total_value =  sum_values([2,5,6,8])
+print(total_value)
+
+
+    
