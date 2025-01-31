@@ -29,4 +29,15 @@ def search_for_number( arr, target_number):
 arr = [2, 4, 2, 1, 2]
 target_number = 4
 print(search_for_number(arr, target_number))
+
+# coppy all the elements in one list to another emppty list.
+
+def copy_list(arr):
+    new_list = []
+    for elements in arr:
+        new_list.append(elements)
     
+    return new_list
+
+new_list = copy_list([1, 2, 4, 8, 16, 32, 64, 128])
+print(new_list)
