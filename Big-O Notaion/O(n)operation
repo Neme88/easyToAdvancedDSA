@@ -8,5 +8,19 @@ def sum_values(arr):
 total_value =  sum_values([2,5,6,8])
 print(total_value)
 
+# count the occurance of an element in a list
+def count_occurances(arr, target_value):
+    counter = 0
+    for num in arr:
+        if num == target_value:
+            counter += 1
+    return counter
+
+arr = [2, 4, 2, 1, 2, 6, 4, 8, 3]
+target_value = 2
+print(count_occurances(arr, target_value))
+    
+
+
 
     
