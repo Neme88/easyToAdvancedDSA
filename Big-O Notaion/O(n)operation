@@ -41,3 +41,4 @@ def copy_list(arr):
 
 new_list = copy_list([1, 2, 4, 8, 16, 32, 64, 128])
 print(new_list)
+
