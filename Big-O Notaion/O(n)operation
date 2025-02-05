@@ -30,7 +30,7 @@ arr = [2, 4, 2, 1, 2]
 target_number = 4
 print(search_for_number(arr, target_number))
 
-# coppy all the elements in one list to another emppty list.
+# copy all the elements in one list to another empty list.
 
 def copy_list(arr):
     new_list = []
