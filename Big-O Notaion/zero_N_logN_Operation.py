@@ -24,5 +24,9 @@ def merge(left_half: list, right_half: list) -> list:
         else:
             result.append(right_half[j])
             j += 1
+    # append remaining elements to result
+    result.extend(left_half[i:])
+    result.extend(right_half[j:])
     
+    return result
     
