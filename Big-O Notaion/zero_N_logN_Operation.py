@@ -29,4 +29,10 @@ def merge(left_half: list, right_half: list) -> list:
     result.extend(right_half[j:])
     
     return result
+
+# test the function
+arr = [38, 27, 43, 3, 9, 82, 5, 1, 7]
+sorted_arr = merge_sort(arr)
+print(f"your sorted array is {sorted_arr}") # Expected output: [1, 3, 5, 7, 9, 27, 38, 43, 82]
+
     
