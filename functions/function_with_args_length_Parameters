@@ -1,6 +1,6 @@
-# implement function with argument length parameter
+# implement function with Variable argument length
 def argsLengthFunction(*args):
-    
+    # check for Negative number 
     if any(arg < 0 for arg in args):
         return "Negative number argument not allowed"
     
