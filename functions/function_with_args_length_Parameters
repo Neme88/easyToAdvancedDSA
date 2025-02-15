@@ -1,7 +1,10 @@
 # implement function with argument length parameter
 def argsLengthFunction(*args):
     total = sum(args)
-    return total
+    if not args:
+        return 2
+    else:
+        return total
 
-res = argsLengthFunction(2,4,5)
+res = argsLengthFunction(4,100,23)
 print(res)
