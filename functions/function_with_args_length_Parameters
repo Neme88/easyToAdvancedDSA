@@ -1,1 +1,7 @@
 # implement function with argument length parameter
+def argsLengthFunction(*args):
+    total = sum(args)
+    return total
+
+res = argsLengthFunction(2,4,5)
+print(res)
