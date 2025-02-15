@@ -6,9 +6,13 @@ def argsLengthFunction(*args):
     
     if not args:
         return 2
+    
+    if len(args) == 1:
+        return args[0]
+    
     else:
         return sum(args)
 
-res = argsLengthFunction()
+res = argsLengthFunction(12)
 
 print(res)
