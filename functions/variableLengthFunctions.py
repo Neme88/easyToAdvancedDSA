@@ -28,6 +28,10 @@ def variableLengthFunctiontwo(*args):
     if any(arg < 0 for arg in args):
         return "Negative number argument not allowed"
     
+    # check for empty argument list
+    if not args:
+        return "We need at least one argument"
+    
     return math.prod(args)
 
 
