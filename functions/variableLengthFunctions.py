@@ -32,6 +32,10 @@ def variableLengthFunctiontwo(*args):
     if not args:
         return "We need at least one argument"
     
+    # check for single argument list
+    if len(args) == 1:
+        return args[0]
+    
     return math.prod(args)
 
 
