@@ -1,18 +1,32 @@
+import sys
 # implement function with Variable argument length
-def argsLengthFunction(*args):
+def variableLengthFunctionOne(*args):
+    
     # check for Negative number 
     if any(arg < 0 for arg in args):
         return "Negative number argument not allowed"
-    
+   
+    # check for empty argument list
     if not args:
         return 2
-    
+    # check for single argument list
     if len(args) == 1:
         return args[0]
-    
+
     else:
         return sum(args)
 
-res = argsLengthFunction(12)
+res = variableLengthFunctionOne(12)
 
 print(res)
+
+if __name__ == "__main__":
+    if len(sys.args) > 1:
+        if sys.argv[1] == "one":
+            variableLengthFunctionOne()
+        elif sys.argv[1] == "two":
+            variablesLengthFunctiontwo()
+        else:
+            print("Invalid argument. use one or two.")
+            
+    
