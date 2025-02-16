@@ -1,4 +1,5 @@
 import sys
+import math
 # implement function with Variable argument length
 def variableLengthFunctionOne(*args):
     
@@ -20,12 +21,21 @@ res = variableLengthFunctionOne(12)
 
 print(res)
 
+
+def variableLengthFunctiontwo(*args):
+    return math.prod(args)
+
+
+prod = variableLengthFunctiontwo(2,6, 3) 
+print(prod)
+
+
 if __name__ == "__main__":
-    if len(sys.args) > 1:
+    if len(sys.argv) > 1:
         if sys.argv[1] == "one":
             variableLengthFunctionOne()
         elif sys.argv[1] == "two":
-            variablesLengthFunctiontwo()
+            variableLengthFunctiontwo()
         else:
             print("Invalid argument. use one or two.")
             
