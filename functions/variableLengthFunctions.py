@@ -36,10 +36,11 @@ def variableLengthFunctiontwo(*args):
     if len(args) == 1:
         return args[0]
     
-    return math.prod(args)
+    else:
+        return math.prod(args)
 
 
-prod = variableLengthFunctiontwo(2,6, 3) 
+prod = variableLengthFunctiontwo(23, 2, 4) 
 print(prod)
 
 
