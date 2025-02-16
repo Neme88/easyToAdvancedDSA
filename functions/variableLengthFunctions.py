@@ -23,6 +23,11 @@ print(res)
 
 
 def variableLengthFunctiontwo(*args):
+    
+    # check for Negative number 
+    if any(arg < 0 for arg in args):
+        return "Negative number argument not allowed"
+    
     return math.prod(args)
 
 
