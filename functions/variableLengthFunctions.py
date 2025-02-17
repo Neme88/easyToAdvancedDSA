@@ -49,7 +49,8 @@ def variableLengthFunctionThree(*args: int) -> int:
         max_len = max(len(str(arg)) for arg in args)
         return max_len
     
-max_string = variableLengthFunctionThree("long", "")
+max_string = variableLengthFunctionThree("long", "longer")
+print(max_string)
 
 
 
@@ -57,8 +58,12 @@ if __name__ == "__main__":
     if len(sys.argv) > 1:
         if sys.argv[1] == "one":
             variableLengthFunctionOne()
+        
         elif sys.argv[1] == "two":
             variableLengthFunctiontwo()
+        
+        elif sys.argv[1] == "three":
+            variableLengthFunctionThree()
         else:
             print("Invalid argument. use one or two.")
             
