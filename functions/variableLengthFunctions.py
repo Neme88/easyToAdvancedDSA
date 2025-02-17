@@ -45,8 +45,9 @@ print(prod)
 
 
 def variableLengthFunctionThree(*args: int) -> int:
-    
-    
+        # compare string length
+        max_len = max(len(str(arg)) for arg in args)
+        return max_len
 
 
 
