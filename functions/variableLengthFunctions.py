@@ -44,6 +44,12 @@ prod = variableLengthFunctiontwo(23, 2, 4)
 print(prod)
 
 
+def variableLengthFunctionThree(*args: int) -> int:
+    
+    
+
+
+
 if __name__ == "__main__":
     if len(sys.argv) > 1:
         if sys.argv[1] == "one":
