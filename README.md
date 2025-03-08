@@ -161,3 +161,36 @@ O(1)
 O(n)
 
 More data structures (Stacks, Queues, Trees, Graphs) are included in the data-structures/ folder.
+
+🚀 How to Use This Repository
+
+Clone the repository:
+
+git clone https://github.com/Neme88/easyToAdvancedDSA.git
+
+Navigate into the directory:
+
+cd big-o-notation-guide
+
+Explore the different algorithms and data structures with their time complexity analysis.
+
+📖 References
+
+Big O Cheat Sheet
+
+Introduction to Algorithms (Cormen, Leiserson, Rivest, Stein)
+
+Cracking the Coding Interview (Gayle Laakmann McDowell)
+
+💡 Contributions
+
+Contributions are welcome! Feel free to fork this repo, create a new branch, and submit a pull request (PR) with improvements.
+
+🛠 Maintainers
+
+This repository is maintained by Your Name. If you have any questions, feel free to reach out or open an issue.
+
+⭐ Support
+
+If you find this repository helpful, please star it ⭐ on GitHub!
+
