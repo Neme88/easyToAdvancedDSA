@@ -1,19 +1,5 @@
-def average(table=[]):
+Big O Notation - Time Complexity Guide
 
-    if not table:
-        return 0
-    if not isinstance(table, list):
-        return str("Input must be list")
-    if len(table) == 1:
-        return table[0]
-    if not all(isinstance( item, (int, float)) for item in table):
-        return "table must be numbers"
-    return sum(table) / len(table)
+📌 Overview
 
-input_One = [2,3,4,79,34,67, 12, 100, 10, 12,]
-input_Two = ['2','4','5',6]
-input_three = 78
-input_four = [3]
-input_five = []
-table_one = average(input_Two)
-print(table_one)
+This repository contains a comprehensive guide to Big O Notation, including time complexities for various algorithms and data structures. The goal is to help developers understand how different operations scale as input size increases.
