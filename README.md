@@ -83,4 +83,81 @@ Graph Algorithms (DFS, BFS, Dijkstra's Algorithm)
 
 Recursion & Dynamic Programming (Fibonacci, Memoization, Tabulation)
 
-📌 Data Structures & Their Com
+
+📌 Data Structures & Their Complexities
+
+1️⃣ Arrays
+
+Operation
+
+Time Complexity
+
+Access
+
+O(1)
+
+Search
+
+O(n)
+
+Insert (end)
+
+O(1)
+
+Insert (middle)
+
+O(n)
+
+Delete
+
+O(n)
+
+2️⃣ Linked Lists
+
+Operation
+
+Time Complexity
+
+Access
+
+O(n)
+
+Search
+
+O(n)
+
+Insert
+
+O(1) (at head)
+
+Delete
+
+O(1) (at head)
+
+3️⃣ Hash Tables
+
+Operation
+
+Time Complexity (Avg)
+
+Time Complexity (Worst)
+
+Insert
+
+O(1)
+
+O(n)
+
+Search
+
+O(1)
+
+O(n)
+
+Delete
+
+O(1)
+
+O(n)
+
+More data structures (Stacks, Queues, Trees, Graphs) are included in the data-structures/ folder.
