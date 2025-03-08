@@ -59,3 +59,28 @@ O(n!)
 Factorial Time
 
 Traveling Salesman Problem (brute-force)
+
+📂 Repository Structure
+
+This repository is structured as follows:
+
+📂 easyToAdvancedDSA
+│── 📁 Big-O Notation      # Code implementations of algorithms
+│── 📁 data-structures  # Time complexities of common data structures
+│── 📁 functions  # Summary table of Big O complexities
+│── 📄 README.md        # Overview and explanations
+
+
+🔥 Algorithms Covered
+
+This repository includes Big O analysis for:
+
+Sorting Algorithms (Bubble Sort, Merge Sort, Quick Sort, etc.)
+
+Searching Algorithms (Binary Search, Linear Search)
+
+Graph Algorithms (DFS, BFS, Dijkstra's Algorithm)
+
+Recursion & Dynamic Programming (Fibonacci, Memoization, Tabulation)
+
+📌 Data Structures & Their Com
