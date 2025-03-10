@@ -4,3 +4,7 @@ from functools import reduce
 # addCreating and Initializing a List
 def create_list(elements=None):
     return elements if elements is not None else []
+
+# use case
+my_list = create_list([1, 2, 3, 4, 5])
+print(f'Original List: {my_list}')
