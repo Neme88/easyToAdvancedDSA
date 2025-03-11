@@ -13,3 +13,8 @@ print(f'Original List: {my_list}')
 def append_element(lst, element):
     lst.append(element)
     return lst
+
+
+# use case
+my_list = append_element(my_list, 6)
+print(f'List after adding element: {my_list}')
