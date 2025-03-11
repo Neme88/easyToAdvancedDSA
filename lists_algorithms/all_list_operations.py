@@ -10,3 +10,6 @@ my_list = create_list([1, 2, 3, 4, 5])
 print(f'Original List: {my_list}')
 
 # Adding Elements
+def append_element(lst, element):
+    lst.append(element)
+    return lst
