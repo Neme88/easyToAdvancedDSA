@@ -8,3 +8,5 @@ def create_list(elements=None):
 # use case
 my_list = create_list([1, 2, 3, 4, 5])
 print(f'Original List: {my_list}')
+
+# Adding Elements
