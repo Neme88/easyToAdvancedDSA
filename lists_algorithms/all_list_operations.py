@@ -18,3 +18,8 @@ def append_element(lst, element):
 # use case
 my_list = append_element(my_list, 6)
 print(f'List after adding element: {my_list}')
+
+if __name__ == "__main__":
+    lst = create_list([1, 2, 5, 6])
+    append_element(lst, 3)
+    
