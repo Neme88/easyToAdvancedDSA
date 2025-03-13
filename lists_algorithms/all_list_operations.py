@@ -18,4 +18,7 @@ if __name__ == "__main__":
     
     lst = create_list([1, 2, 5, 6])
     append_element(lst, 3)
+    insert_element(lst, 1, 99)
+    
+    
     
