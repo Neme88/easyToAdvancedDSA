@@ -10,6 +10,9 @@ def append_element(lst, element):
     lst.append(element)
     return lst
 # insert elements to a list
+def insert_element(lst, index, element):
+    lst.insert(index, element)
+    return lst
 
 if __name__ == "__main__":
     
