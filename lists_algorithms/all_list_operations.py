@@ -15,7 +15,9 @@ def insert_element(lst, index, element):
     lst.insert(index, element)
     return lst
 # 3 extend method to add multiple elements
-
+def extend_list (lst, new_element):
+    lst.extend(new_element)
+    return lst
 
 
 if __name__ == "__main__":
