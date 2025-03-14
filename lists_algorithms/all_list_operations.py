@@ -10,12 +10,13 @@ def create_list(elements=None):
 def append_element(lst, element):
     lst.append(element)
     return lst
-# insert elements to any given index of a list
+# 2 insert elements to any given index of a list
 def insert_element(lst, index, element):
     lst.insert(index, element)
     return lst
+# 3 extend method to add multiple elements
 
-# 
+
 
 if __name__ == "__main__":
     
