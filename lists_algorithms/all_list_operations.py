@@ -23,9 +23,12 @@ def extend_list (lst, new_element):
 if __name__ == "__main__":
     
     lst = create_list([1, 2, 5, 6])
-    append_element(lst, 3)
-    res = insert_element(lst, 1, 99)
-    print(res)
+    res0 = append_element(lst, 3)
+    res1 = insert_element(lst, 1, 99)
+    res2 = extend_list(lst, [1, 2, 5, 6 ])
+    print(res0)
+    print(res1)
+    print(res2)
     
     
     
