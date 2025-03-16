@@ -30,13 +30,14 @@ def remove_element(lst, element):
 
 if __name__ == "__main__":
     
-    lst = create_list([1, 2, 5, 6])
+    lst = create_list([1, 2, 5, 6, 9])
     res0 = append_element(lst, 3)
     res1 = insert_element(lst, 1, 99)
     res2 = extend_list(lst, [1, 2, 5, 6 ])
+    res3 = remove_element(lst, 9)
     print(res0)
     print(res1)
     print(res2)
-    
+    print(res3)
     
     
