@@ -18,7 +18,11 @@ def insert_element(lst, index, element):
 def extend_list (lst, new_element):
     lst.extend(new_element)
     return lst
-# remove element from a list
+# 4 ways to remove element from a list
+# 1 remove 
+# 2 delete element
+# 3 clear all elements
+# 4 pop element from list
 
 
 if __name__ == "__main__":
