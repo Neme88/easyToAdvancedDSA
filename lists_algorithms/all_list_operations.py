@@ -23,6 +23,9 @@ def extend_list (lst, new_element):
 # 2 delete element
 # 3 clear all elements
 # 4 pop element from list
+def remove_element(lst, element):
+    if element in lst:
+        lst.remove(element)
 
 
 if __name__ == "__main__":
