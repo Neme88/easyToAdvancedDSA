@@ -28,6 +28,8 @@ def remove_element(lst, element):
     if element in lst:
         lst.remove(element)
 
+# implementing the second method of removing element from a list. 
+
 
 
 if __name__ == "__main__":
