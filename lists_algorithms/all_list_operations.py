@@ -34,7 +34,7 @@ def pop_element(lst, index=None):
         return lst.pop()
     else:
         return lst.pop(index)
-    
+  
 
 
 if __name__ == "__main__":
@@ -44,9 +44,11 @@ if __name__ == "__main__":
     res1 = insert_element(lst, 1, 99)
     res2 = extend_list(lst, [1, 2, 5, 6 ])
     res3 = remove_element(lst, 9)
+    res4 = pop_element(lst, 2)
     print(res0)
     print(res1)
     print(res2)
     print(res3)
+    print(res4)
     
     
