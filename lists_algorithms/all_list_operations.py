@@ -29,7 +29,12 @@ def remove_element(lst, element):
         lst.remove(element)
 
 # implementing the second method of removing element from a list. 
-
+def pop_element(lst, index=None):
+    if index is None:
+        return lst.pop()
+    else:
+        return lst.pop(index)
+    
 
 
 if __name__ == "__main__":
