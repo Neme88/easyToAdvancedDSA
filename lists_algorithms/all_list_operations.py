@@ -28,12 +28,14 @@ def remove_element(lst, element):
     if element in lst:
         lst.remove(element)
 
-# implementing the second method of removing element from a list. 
+# implementing the second method of removing element from a list using pop method. 
 def pop_element(lst, index=None):
     if index is None:
         return lst.pop()
     else:
         return lst.pop(index)
+# implementing the third method of removing an element from the list using delete method 
+
   
 
 
