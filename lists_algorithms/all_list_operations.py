@@ -35,7 +35,8 @@ def pop_element(lst, index=None):
     else:
         return lst.pop(index)
 # implementing the third method of removing an element from the list using delete method 
-
+def delete_element(lst, index):
+    del lst[index]
   
 
 
