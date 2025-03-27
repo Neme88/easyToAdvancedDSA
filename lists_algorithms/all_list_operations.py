@@ -37,6 +37,7 @@ def pop_element(lst, index=None):
 # implementing the third method of removing an element from the list using delete method 
 def delete_element(lst, index):
     del lst[index]
+    return lst
   
 
 
@@ -45,13 +46,15 @@ if __name__ == "__main__":
     lst = create_list([1, 2, 5, 6, 9])
     res0 = append_element(lst, 3)
     res1 = insert_element(lst, 1, 99)
-    res2 = extend_list(lst, [1, 2, 5, 6 ])
+    res2 = extend_list(lst, [1, 2, 5, 6, 7, 4, 8 ])
     res3 = remove_element(lst, 9)
     res4 = pop_element(lst, 2)
-    print(res0)
-    print(res1)
-    print(res2)
-    print(res3)
-    print(res4)
+    res5 = delete_element(lst, 3)
+    #print(res0)
+    #print(res1)
+    #print(res2)
+    #print(res3)
+    #print(res4)
+    print(res5)
     
     
