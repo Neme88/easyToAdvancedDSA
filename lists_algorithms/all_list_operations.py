@@ -55,11 +55,15 @@ if __name__ == "__main__":
     res3 = remove_element(lst, 9)
     res4 = pop_element(lst, 2)
     res5 = delete_element(lst, 3)
+    res6 = clear_list(lst)
     #print(res0)
     #print(res1)
     #print(res2)
     #print(res3)
     #print(res4)
-    print(res5)
+    #print(res5)
+    print(res6)
+    
+    
     
     
