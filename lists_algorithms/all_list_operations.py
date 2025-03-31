@@ -39,7 +39,9 @@ def delete_element(lst, index):
     del lst[index]
     return lst
 # implementing the fourth method of removing an element from the list using the clear method
-
+def clear_list(lst):
+    lst.clear()
+    return lst
 
   
 
